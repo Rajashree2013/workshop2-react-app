@@ -5,6 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Person from './components/Person';
 import Welcome from './components/Welcome';
+import CrudDemo from'./CrudDemo';
 
 class App extends Component {
   render() {
@@ -19,6 +20,8 @@ class App extends Component {
             <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
             <li><Link to={'/about'} className="nav-link">About</Link></li>
             <li><Link to={'/person'} className="nav-link">Person</Link></li>
+            <li><Link to={'/crud'} className="nav-link">Crud</Link></li>
+            
           </ul>
           </nav>
           <hr />
@@ -28,6 +31,7 @@ class App extends Component {
               <Route path='/contact' component={Contact} />
               <Route path='/about' component={About} />
               <Route path='/person' component={Person} />
+              <Route path='/crud' component={CrudDemo} />
           </Switch>
         </div>
       </Router>
