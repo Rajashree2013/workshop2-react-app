@@ -16,7 +16,7 @@ class App extends Component {
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <ul className="navbar-nav mr-auto">
             <li><Link to={'/'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/welcome'} className="nav-link"> Welcome </Link></li>
+            <li><Link to={'/welcome'} className="nav-link"> Welcome1 </Link></li>
             <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
             <li><Link to={'/about'} className="nav-link">About</Link></li>
             <li><Link to={'/person'} className="nav-link">Person</Link></li>
